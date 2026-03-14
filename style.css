@@ -57,4 +57,142 @@ footer{text-align:center;padding:20px;background:#021d1a;}
 .whatsapp-btn:hover {
   transform: scale(1.1);
 }
+/* ===== Tablet ===== */
+@media (max-width: 1024px) {
 
+header{
+padding:15px 20px;
+}
+
+nav a{
+margin:0 6px;
+font-size:14px;
+}
+
+.hero{
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.videoBox video{
+width:90%;
+}
+
+.contactBox{
+width:90%;
+}
+
+}
+
+
+/* ===== Mobile ===== */
+@media (max-width: 768px){
+
+header{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+nav a{
+font-size:14px;
+margin:5px;
+}
+
+.hero{
+padding:70px 15px;
+}
+
+.hero h1{
+font-size:26px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+.btn{
+font-size:16px;
+padding:10px 20px;
+}
+
+.grid{
+grid-template-columns:1fr;
+padding:20px;
+}
+
+.card{
+padding:15px;
+}
+
+.review{
+font-size:14px;
+}
+
+.videoBox video{
+width:95%;
+}
+
+.contact{
+padding:30px 10px;
+}
+
+.contactBox{
+width:95%;
+padding:20px;
+}
+
+.whatsapp{
+width:50px;
+height:50px;
+font-size:24px;
+}
+
+}
+
+
+/* ===== Small Mobile ===== */
+@media (max-width: 480px){
+
+.hero h1{
+font-size:22px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+.logo{
+font-size:18px;
+}
+
+nav a{
+font-size:13px;
+}
+
+.title{
+font-size:22px;
+}
+
+footer{
+font-size:13px;
+}
+
+}
