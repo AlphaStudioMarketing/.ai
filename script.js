@@ -1,5 +1,5 @@
 // فتح فيسبوك
-function goToFacebook(){window.open("https://www.facebook.com/share/p/1AqHYhhhWW/","_blank");}
+function goToFacebook(){window.open("https://www.facebook.com/share/1AhiYhZ44y/","_blank");}
 
 // Scroll animation
 const elements=document.querySelectorAll(".fade-up,.fade-left,.fade-right");
